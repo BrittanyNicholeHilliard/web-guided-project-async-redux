@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Monsieur",
+                "first": "Jan",
+                "last": "Richard"
+            },
+            "location": {
+                "street": {
+                    "number": 4307,
+                    "name": "Montée Saint-Barthélémy"
+                },
+                "city": "Etziken",
+                "state": "Solothurn",
+                "country": "Switzerland",
+                "postcode": 7655,
+                "coordinates": {
+                    "latitude": "-63.5880",
+                    "longitude": "-87.3672"
+                },
+                "timezone": {
+                    "offset": "-6:00",
+                    "description": "Central Time (US & Canada), Mexico City"
+                }
+            },
+            "email": "jan.richard@example.com",
+            "login": {
+                "uuid": "7d3634a1-5307-4c13-8c6b-debcb5e6d072",
+                "username": "happypeacock840",
+                "password": "sigmachi",
+                "salt": "umaCWdnq",
+                "md5": "cda71ba6a6f594a1a2a48e98f9ec02d6",
+                "sha1": "630580e47c2067a34bddf0127504253837e1b99a",
+                "sha256": "525eb60b6ea07b6344318dd9c8118c71c7a2f5b4bed5c092958e7e5de9797706"
+            },
+            "dob": {
+                "date": "1995-11-23T14:06:04.265Z",
+                "age": 26
+            },
+            "registered": {
+                "date": "2016-07-24T18:44:41.606Z",
+                "age": 6
+            },
+            "phone": "076 938 04 11",
+            "cell": "076 999 60 35",
+            "id": {
+                "name": "AVS",
+                "value": "756.9621.8608.70"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/75.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+            },
+            "nat": "CH"
+        }
+    ],
+    "info": {
+        "seed": "107029941b0947be",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}

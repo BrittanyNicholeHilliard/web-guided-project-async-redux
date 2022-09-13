@@ -1,3 +1,5 @@
+import { GET_PERSON } from "../actions";
+
 const initialState = {
   person: {
     name: {
@@ -12,11 +14,13 @@ const initialState = {
     }
   },
   isFetching: false,
-  error: ''
+  error: '' 
 };
 
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
+    case GET_PERSON: 
+    return state;
     default:
       return state;
   }

@@ -1,7 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { getPerson } from '../actions';
 
-const Person = ({ person, isFetching, error }) => {
+const Person = (props) => {
+
+  const {person, isFetching, error} = props;
+
+  //const quote = useSelector(state => state.quote)
 
   if (error) {
     return <h2>We got an error: {error}</h2>;
@@ -17,7 +22,7 @@ const Person = ({ person, isFetching, error }) => {
         <h2>Say Hi to: {person.name.first} {person.name.last}</h2>
         <img src={person.picture.large}/>
       </div>
-      <button>Get new person</button>
+      <button onClick={() => {getPerson()}}>Get new person</button>
     </>
   );
 };
@@ -30,4 +35,4 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(mapStateToProps)(Person);
+export default connect(mapStateToProps, {getPerson})(Person);
